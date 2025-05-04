@@ -111,13 +111,13 @@ class ProductoCtrl
     return $Productos;
   }
 
-  function traerCategoriadeBD(){
+  function traerCategoriadeBD()
+  {
 
-    $categoriaObj=new Producto;
-    $array=$categoriaObj->mostrarCategoriadeBD();
-     return $array;
- 
- }
+    $categoriaObj = new Producto;
+    $array = $categoriaObj->mostrarCategoriadeBD();
+    return $array;
+  }
 
   function mostrarProducto()
   { //bd de zabbix
